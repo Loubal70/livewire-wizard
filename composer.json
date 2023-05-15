@@ -1,5 +1,5 @@
 {
-    "name": "vildanbina/livewire-wizard",
+    "name": "loubal70/livewire-wizard",
     "description": "Laravel Livewire Wizard (Multi-Step Form) component",
     "keywords": [
         "laravel",
@@ -8,33 +8,32 @@
         "wizard",
         "form"
     ],
-    "homepage": "https://github.com/vildanbina/livewire-wizard",
+    "homepage": "https://github.com/loubal70/livewire-wizard",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vildan Bina",
-            "email": "vildanbina@gmail.com",
+            "name": "Louis Boulanger",
+            "email": "louis.boulanger.work@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.0|^8.1",
         "livewire/livewire": "^2.0",
-        "wireui/wireui": "^1.0",
         "spatie/laravel-package-tools": "^1.9"
     },
     "autoload": {
         "psr-4": {
-            "Vildanbina\\LivewireWizard\\": "src"
+            "loubal70\\LivewireWizard\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vildanbina\\LivewireWizard\\LivewireWizardServiceProvider"
+                "loubal70\\LivewireWizard\\LivewireWizardServiceProvider"
             ],
             "aliases": {
-                "LivewireWizard": "Vildanbina\\LivewireWizard\\Facades\\LivewireWizard"
+                "LivewireWizard": "loubal70\\LivewireWizard\\Facades\\LivewireWizard"
             }
         }
     },
