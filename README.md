@@ -4,6 +4,8 @@
 [![License](http://poser.pugx.org/loubal70/livewire-wizard/license)](https://packagist.org/packages/loubal70/livewire-wizard)
 [![PHP Version Require](http://poser.pugx.org/loubal70/livewire-wizard/require/php)](https://packagist.org/packages/loubal70/livewire-wizard)
 
+This package is a fork of vildanbina/livewire-wizard
+
 A dynamic Laravel Livewire component for multi steps form.
 
 ![Multi steps form](https://user-images.githubusercontent.com/51203303/155848196-e3569891-cb63-499d-8079-a63a30925b77.png)
