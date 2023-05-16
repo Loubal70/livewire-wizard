@@ -1,8 +1,8 @@
-[![Latest Stable Version](http://poser.pugx.org/vildanbina/livewire-wizard/v)](https://packagist.org/packages/vildanbina/livewire-wizard)
-[![Total Downloads](http://poser.pugx.org/vildanbina/livewire-wizard/downloads)](https://packagist.org/packages/vildanbina/livewire-wizard)
-[![Latest Unstable Version](http://poser.pugx.org/vildanbina/livewire-wizard/v/unstable)](https://packagist.org/packages/vildanbina/livewire-wizard)
-[![License](http://poser.pugx.org/vildanbina/livewire-wizard/license)](https://packagist.org/packages/vildanbina/livewire-wizard)
-[![PHP Version Require](http://poser.pugx.org/vildanbina/livewire-wizard/require/php)](https://packagist.org/packages/vildanbina/livewire-wizard)
+[![Latest Stable Version](http://poser.pugx.org/loubal70/livewire-wizard/v)](https://packagist.org/packages/loubal70/livewire-wizard)
+[![Total Downloads](http://poser.pugx.org/loubal70/livewire-wizard/downloads)](https://packagist.org/packages/loubal70/livewire-wizard)
+[![Latest Unstable Version](http://poser.pugx.org/loubal70/livewire-wizard/v/unstable)](https://packagist.org/packages/loubal70/livewire-wizard)
+[![License](http://poser.pugx.org/loubal70/livewire-wizard/license)](https://packagist.org/packages/loubal70/livewire-wizard)
+[![PHP Version Require](http://poser.pugx.org/loubal70/livewire-wizard/require/php)](https://packagist.org/packages/loubal70/livewire-wizard)
 
 A dynamic Laravel Livewire component for multi steps form.
 
@@ -13,7 +13,7 @@ A dynamic Laravel Livewire component for multi steps form.
 You can install the package via composer:
 
 ``` bash
-composer require vildanbina/livewire-wizard
+composer require loubal70/livewire-wizard
 ```
 
 For UI design this package require [WireUI package](https://livewire-wireui.com) for details.
@@ -49,7 +49,7 @@ You can create livewire component `php artisan make:livewire UserWizard` to make
 
 namespace App\Http\Livewire;
 
-use Vildanbina\LivewireWizard\WizardComponent;
+use loubal70\LivewireWizard\WizardComponent;
 use App\Models\User;
 
 class UserWizard extends WizardComponent
@@ -114,7 +114,7 @@ You can create wizard form step. Open or create your step class (at `App\Steps` 
 
 namespace App\Steps;
 
-use Vildanbina\LivewireWizard\Components\Step;
+use loubal70\LivewireWizard\Components\Step;
 use Illuminate\Validation\Rule;
 
 class General extends Step
@@ -191,7 +191,7 @@ class General extends Step
 In Step class, you can use livewire hooks example:
 
 ```php
-use Vildanbina\LivewireWizard\Components\Step;
+use loubal70\LivewireWizard\Components\Step;
 
 class General extends Step
 {
@@ -237,7 +237,7 @@ After create step class, you need to put that step to wizard form:
 namespace App\Http\Livewire;
 
 use App\Steps\General;
-use Vildanbina\LivewireWizard\WizardComponent;
+use loubal70\LivewireWizard\WizardComponent;
 
 class UserWizard extends WizardComponent
 {
@@ -264,7 +264,7 @@ module.exports = {
         "./resources/**/*.js",
         "./resources/**/*.vue",
 
-        "./vendor/vildanbina/livewire-wizard/resources/views/*.blade.php",
+        "./vendor/loubal70/livewire-wizard/resources/views/*.blade.php",
         "./vendor/wireui/wireui/resources/**/*.blade.php",
         "./vendor/wireui/wireui/ts/**/*.ts",
         "./vendor/wireui/wireui/src/View/**/*.php"
@@ -284,11 +284,11 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-Please e-mail vildanbina@gmail.com to report any security vulnerabilities instead of the issue tracker.
+Please e-mail loubal70@gmail.com to report any security vulnerabilities instead of the issue tracker.
 
 ## Credits
 
-- [Vildan Bina](https://github.com/vildanbina)
+- [Vildan Bina](https://github.com/loubal70)
 - [All Contributors](../../contributors)
 
 ## License

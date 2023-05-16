@@ -1,8 +1,8 @@
 <?php
 
-namespace Vildanbina\LivewireWizard\Concerns;
+namespace loubal70\LivewireWizard\Concerns;
 
-use Vildanbina\LivewireWizard\Contracts\WizardForm;
+use loubal70\LivewireWizard\Contracts\WizardForm;
 
 trait BelongsToLivewire
 {

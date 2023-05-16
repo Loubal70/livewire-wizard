@@ -1,6 +1,6 @@
 <?php
 
-namespace Vildanbina\LivewireWizard;
+namespace loubal70\LivewireWizard;
 
 use Closure;
 use Exception;
@@ -8,11 +8,11 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Component;
 use Str;
-use Vildanbina\LivewireWizard\Components\Step;
-use Vildanbina\LivewireWizard\Concerns\HasHooks;
-use Vildanbina\LivewireWizard\Concerns\HasState;
-use Vildanbina\LivewireWizard\Concerns\HasSteps;
-use Vildanbina\LivewireWizard\Contracts\WizardForm;
+use loubal70\LivewireWizard\Components\Step;
+use loubal70\LivewireWizard\Concerns\HasHooks;
+use loubal70\LivewireWizard\Concerns\HasState;
+use loubal70\LivewireWizard\Concerns\HasSteps;
+use loubal70\LivewireWizard\Contracts\WizardForm;
 
 abstract class WizardComponent extends Component implements WizardForm
 {
@@ -61,11 +61,11 @@ abstract class WizardComponent extends Component implements WizardForm
         }
 
         $this->stepClasses(function (Step $step) {
-            
+
             if (method_exists($this, 'model')) {
                 $step->setModel($this->model);
             }
-            
+
             if (method_exists($step, 'mount')) {
                 $step->mount();
             }

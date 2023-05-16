@@ -1,6 +1,6 @@
 <?php
 
-namespace Vildanbina\LivewireWizard\Concerns;
+namespace loubal70\LivewireWizard\Concerns;
 
 use Arr;
 

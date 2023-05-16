@@ -22,12 +22,14 @@
         @endif
 
         <div class="grid place-items-center">
-            <x-button.circle
-                :positive="$stepIsGreaterOrEqualThan && !$isFailedStep"
-                :negative="$isFailedStep"
-                wire:click="setStep({{ $stepInstance->getOrder() }})"
-                icon="{{ $stepInstance->icon() }}"
-            />
+                bouton circle
+                {{-- TODO A corrigé--}}
+{{--            <x-button.circle--}}
+{{--                :positive="$stepIsGreaterOrEqualThan && !$isFailedStep"--}}
+{{--                :negative="$isFailedStep"--}}
+{{--                wire:click="setStep({{ $stepInstance->getOrder() }})"--}}
+{{--                icon="{{ $stepInstance->icon() }}"--}}
+{{--            />--}}
         </div>
     </div>
     <div class="text-xs text-center md:text-base">{{ $stepInstance->title() }}</div>

@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Vildan Bina <vildanbina@gmail.com>
+Copyright (c) Vildan Bina <loubal70@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
